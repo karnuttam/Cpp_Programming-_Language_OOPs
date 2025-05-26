@@ -7,10 +7,11 @@
 // std stands for standard
 // iostream stands for input output stream
 
+// What is object?
+// Ans:It is an entity that has behaviour and state.Anything that exists in the physical world.
 
-//Access modifier
-//1.Public 2.Private (default) 3.Protected
-
+// Access modifier
+// 1.Public 2.Private (default) 3.Protected
 
 #include <iostream>
 #include <string>
