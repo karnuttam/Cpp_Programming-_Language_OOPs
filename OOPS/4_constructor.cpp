@@ -86,7 +86,9 @@ int main()
     customer c3("Raghav", 4561245689);                     //(uses two paramaterized constructor)
     customer c4("Ram", 4561236985, 7898, 897);             //(uses four paramaterized constructor)
     customer c5("Raju", 456, 2369789456, 785, 1234589654); //(uses five paramaterized constructor)
-    customer c6(c1);                                       //(By creating default copy constructor )
+    customer c6(c1);       //(By creating default copy constructor )
+    customer c7;
+    c7 = c6;                                
 
     c1.display();
     c2.display();
@@ -94,6 +96,7 @@ int main()
     c4.display();
     c5.display();
     c6.display();
+    c7.display();
 
     return 0;
 }

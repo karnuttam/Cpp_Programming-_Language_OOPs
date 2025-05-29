@@ -2,7 +2,7 @@
 #include <string>
 int main()
 {
-    std::pmr::string str;
+    std::string str;
     std::cout << "Enter the string" << std::endl;
     // std::cin>>str;
     getline(std::cin, str);

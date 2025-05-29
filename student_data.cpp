@@ -2,7 +2,7 @@
 # include <string>
 
 int main(){
-    std::pmr::string name;
+    std::string name;
     int roll_no;
     int marks;
     //char grade;

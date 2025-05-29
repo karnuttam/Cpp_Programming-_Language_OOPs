@@ -19,9 +19,9 @@
 class student
 { // student is a user defined datatype
 public:
-    std::pmr::string name;
+    std::string name;
     int age, roll_no, marks;
-    std::pmr::string grade;
+    std::string grade;
 };
 
 // main function
