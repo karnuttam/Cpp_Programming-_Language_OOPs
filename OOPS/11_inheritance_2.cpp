@@ -1,5 +1,5 @@
 #include <iostream>
-// using nameplace std;
+// using namespace std;
 
 class Parent
 { // parent class
