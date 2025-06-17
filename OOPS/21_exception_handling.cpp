@@ -5,8 +5,10 @@
 // throw - throws an exception when an error is detected.
 // catch - handles the exception.
 
+//**Example: Bank system using exception handling in C++ */
+
 #include <iostream>
-// using namespace std;
+// using namespace std; //Not used globally to avoid namespace pollution
 
 class Customer
 {
@@ -15,13 +17,14 @@ public:
     long long account_number;
     float balance;
 
+    // parametrized constructor to initialize data members
     Customer(std::string name, long long account_number, float balance)
     {
         this->name = name;
         this->account_number = account_number;
         this->balance = balance;
     }
-
+    // Method to deposit money into the account
     void deposit(int amount)
     {
         if (amount > 0)
@@ -35,7 +38,7 @@ public:
             throw "Amount is not deposited successfully.";
         }
     }
-
+    // method to withdraw money from the account
     void withdraw(int amount)
     {
         if (amount > 0 && amount <= balance)
