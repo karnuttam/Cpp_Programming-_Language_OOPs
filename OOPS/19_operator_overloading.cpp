@@ -7,7 +7,7 @@
 // }
 
 /*
-operator is the keyboard.
+operator is the keyword.
 op is  the operator symbol you want to overload (e.g.,+,-,==).
 You define it either inside or outside the class.*/
 
@@ -30,7 +30,7 @@ public:
     }
 
     // Overloading the '+' operator
-    Complex operator+(const Complex &other)
+    Complex operator+(const Complex &other)//“Take another Complex object as input, by reference, and don’t allow it to be modified.”
     {
         // Create a temporary complex object to store the result
         Complex result;

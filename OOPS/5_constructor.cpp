@@ -70,7 +70,7 @@ public:
     }
 
     // appearance of default copy constructor
-    customer(customer &B)
+    customer(customer &B) // also called shallow copy
     {
         name = B.name;
         account_number = B.account_number;
@@ -86,9 +86,9 @@ int main()
     customer c3("Raghav", 4561245689);                     //(uses two paramaterized constructor)
     customer c4("Ram", 4561236985, 7898, 897);             //(uses four paramaterized constructor)
     customer c5("Raju", 456, 2369789456, 785, 1234589654); //(uses five paramaterized constructor)
-    customer c6(c1);       //(By creating default copy constructor )
-    customer c7;
-    c7 = c6;                                
+    customer c6(c1);                                       //(By creating default copy constructor )//This is object creation + initialization in one step.
+    customer c7;                                           // This is object assignment (copying values from one existing object to another).
+    c7 = c6;                                               // It calls the copy assignment operator:
 
     c1.display();
     c2.display();
