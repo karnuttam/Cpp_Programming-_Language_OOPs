@@ -1,0 +1,3 @@
+This is the example of file handling in c++
+I am learing to handle the file in C++
+You can write multiple of lines in file

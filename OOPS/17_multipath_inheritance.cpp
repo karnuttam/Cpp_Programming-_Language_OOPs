@@ -1,7 +1,7 @@
 /**📘 Definition:
 Multipath Inheritance is a type of inheritance in which a class is derived from two or more classes that themselves are derived from a common base class. This creates multiple paths to inherit members from the base class, which can lead to ambiguity.
 To resolve this ambiguity, virtual inheritance is used so that the base class is inherited only once.**/
-
+ 
 /*
 //Without virtual inheritance
 #include <iostream>

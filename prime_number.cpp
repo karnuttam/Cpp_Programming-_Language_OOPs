@@ -26,7 +26,7 @@ bool isPrime(int n){
 //main function
 int main(){
     int number;
-    std::cout<<"Enter the number to check whether the is prime or not: "<<std::endl;
+    std::cout<<"Enter the number to check whether the number is prime or not: "<<std::endl;
     std::cin>>number;
 
     if(isPrime(number)){
