@@ -6,16 +6,29 @@
 //catch - handles the exception.
 
 # include <iostream>
+# include <stdexcept>
 //using namespace std;
+int main(){
+    int num;
+    int den;
+    int result;
+    std::cout<<"Enter the value of num:"<<std::endl;
+    std::cin>>num;
+    std::cout<<"Enter the value of den: "<<std::endl;
+    std::cin>>den;
 
-class Customer{
-    public:
-    std::string name;
-    long long account_number;
-    float balance;
+    try{
+        if(den == 0){
+            throw std::runtime_error("Error: Denomenator cannot be zero");
+           
+        }
+         result = num/den;
+         std::cout<<"Result: "<<result<<std::endl;
+    }catch(std::runtime_error &e){
+        std::cout<<e.what()<<std::endl;
 
-    Customer(std::string name, long long account_number, float balance){
-        
     }
+    std::cout<<"Program continues normally after exception handling"<<std::endl;
 
-};
+    return 0;
+}

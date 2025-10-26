@@ -1,3 +1,7 @@
+//A friend function is a non-member function that has access to the private and protected members of a class.
+//Normally, only member functions of a class can access its private data.
+//But if you declare a function as a friend, it breaks that rule for that function only.
+
 # include <iostream>
 //using namespace std;
 class Complex{
