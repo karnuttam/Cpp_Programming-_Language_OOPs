@@ -1,7 +1,6 @@
 /**
 Q: What is a Static Data Member in C++?
 Answer:
-
 A static data member is a class-level variable that is shared among all objects of the class.
 
 It is declared using the static keyword inside the class.

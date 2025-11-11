@@ -7,6 +7,7 @@ public:
     char a;
     char b;
     int c;
+    std::string name;
     // std::string name;
 };
 
@@ -17,7 +18,8 @@ int main()
 {
     size value;
     // concept of padding
-    std::cout << sizeof(value) << std::endl;
+    std::cout << sizeof(size) << std::endl;
+    
 
     return 0;
 }

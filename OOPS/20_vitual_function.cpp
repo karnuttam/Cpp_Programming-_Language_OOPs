@@ -85,6 +85,6 @@ public:
    virtual void draw() = 0; //Pure vittual function
    };
 
-   The = 0 syntax makes dram() a pure virtual function.
+   The = 0 syntax makes draw() a pure virtual function.
    Now shape is an abstract class.
    */

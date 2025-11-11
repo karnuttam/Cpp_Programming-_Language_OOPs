@@ -19,7 +19,7 @@
 class student
 { // student is a user defined datatype
 public:
-    std::string name;
+    std::string name;//char name[20];
     int age, roll_no, marks;
     std::string grade;
 };
