@@ -1,5 +1,5 @@
 /**
- ✅ What is a Custom Exception?
+ What is a Custom Exception?
 A custom exception is a user-defined class (usually derived from std::exception) that allows you to provide more meaningful error information.
  */
 
@@ -7,7 +7,7 @@ A custom exception is a user-defined class (usually derived from std::exception)
 #include <exception> // Required for using std::exception base class
 using namespace std;
 
-// ✅ Custom Exception Class
+//Custom Exception Class
 // Inherits from std::exception to follow standard exception interface
 class InsufficientBalanceException : public exception
 {
@@ -56,7 +56,7 @@ public:
     }
 };
 
-// ✅ Main function to test the functionality
+//  Main function to test the functionality
 int main()
 {
     BankAccount acc(1000); // Creating account with ₹1000 balance
